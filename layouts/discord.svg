@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="200" viewBox="0 0 320 200">
+  <rect width="320" height="200" rx="6" fill="#1e1f22"/>
+  <!-- 서버 목록 -->
+  <circle cx="7" cy="7" r="2.2" fill="#ed6a5e"/><circle cx="14" cy="7" r="2.2" fill="#f5bf4f"/><circle cx="21" cy="7" r="2.2" fill="#61c554"/>
+  <rect x="7" y="16" width="16" height="16" rx="5" fill="#5865f2"/>
+  <rect x="11" y="37" width="8" height="1.5" rx="0.75" fill="#35373c"/>
+  <rect x="0" y="45" width="2" height="12" rx="1" fill="#f2f3f5"/>
+  <rect x="7" y="43" width="16" height="16" rx="5" fill="#5865f2"/>
+  <circle cx="15" cy="71" r="8" fill="#313338"/><circle cx="15" cy="91" r="8" fill="#313338"/>
+  <circle cx="21" cy="97" r="3" fill="#f23f43" stroke="#1e1f22" stroke-width="1.2"/>
+  <circle cx="15" cy="111" r="8" fill="#313338"/>
+  <circle cx="15" cy="131" r="8" fill="#313338"/><path d="M11.5 131h7M15 127.5v7" stroke="#23a55a" stroke-width="1.4" stroke-linecap="round"/>
+  <!-- 채널 목록 -->
+  <rect x="30" y="0" width="76" height="186" fill="#2b2d31"/>
+  <rect x="36" y="7" width="40" height="4" rx="2" fill="#f2f3f5"/>
+  <rect x="30" y="17" width="76" height="0.8" fill="#1e1f22"/>
+  <rect x="36" y="25" width="34" height="2.5" rx="1.25" fill="#949ba4"/>
+  <rect x="33" y="32" width="70" height="10" rx="2" fill="#404249"/>
+  <text x="37" y="40" font-family="sans-serif" font-size="8" fill="#80848e">#</text>
+  <rect x="44" y="35.5" width="30" height="3" rx="1.5" fill="#f2f3f5"/>
+  <circle cx="47" cy="49" r="3" fill="#d97757" stroke="#23a55a" stroke-width="1"/><rect x="53" y="47.5" width="28" height="2.5" rx="1.25" fill="#949ba4"/>
+  <text x="37" y="61" font-family="sans-serif" font-size="8" fill="#80848e">#</text>
+  <rect x="44" y="56.5" width="24" height="3" rx="1.25" fill="#949ba4"/>
+  <text x="37" y="74" font-family="sans-serif" font-size="8" fill="#80848e">#</text>
+  <rect x="44" y="69.5" width="34" height="3" rx="1.25" fill="#dbdee1"/>
+  <rect x="94" y="68.5" width="6" height="5" rx="2.5" fill="#f23f43"/>
+  <rect x="30" y="186" width="76" height="14" fill="#232428"/>
+  <circle cx="38" cy="193" r="4.5" fill="#5865f2"/><circle cx="41.5" cy="196.5" r="1.8" fill="#23a55a" stroke="#232428" stroke-width="0.8"/>
+  <rect x="46" y="190" width="22" height="2.5" rx="1.25" fill="#f2f3f5"/><rect x="46" y="194.5" width="30" height="2" rx="1" fill="#b5bac1"/>
+  <!-- 채팅(터미널) -->
+  <rect x="106" y="0" width="150" height="200" fill="#313338"/>
+  <rect x="106" y="17" width="150" height="0.8" fill="#1e1f22"/>
+  <text x="112" y="12" font-family="sans-serif" font-size="9" fill="#80848e">#</text>
+  <rect x="120" y="6.5" width="30" height="4" rx="2" fill="#f2f3f5"/><rect x="156" y="7" width="44" height="3" rx="1.5" fill="#b5bac1"/>
+  <rect x="210" y="5.5" width="40" height="6" rx="2" fill="#1e1f22"/>
+  <g fill="#dbdee1" opacity="0.85">
+    <rect x="114" y="28" width="96" height="3" rx="1.5"/><rect x="114" y="36" width="120" height="3" rx="1.5"/>
+    <rect x="114" y="44" width="70" height="3" rx="1.5"/><rect x="114" y="60" width="110" height="3" rx="1.5"/>
+    <rect x="114" y="68" width="84" height="3" rx="1.5"/><rect x="114" y="84" width="126" height="3" rx="1.5"/>
+  </g>
+  <rect x="114" y="100" width="56" height="3" rx="1.5" fill="#5865f2"/>
+  <rect x="114" y="180" width="134" height="12" rx="3" fill="#383a40"/>
+  <!-- 멤버 목록 -->
+  <rect x="256" y="0" width="64" height="200" fill="#2b2d31"/>
+  <rect x="262" y="24" width="30" height="2.5" rx="1.25" fill="#949ba4"/>
+  <circle cx="267" cy="37" r="5" fill="#d97757"/><circle cx="270.5" cy="40.5" r="2" fill="#f23f43" stroke="#2b2d31" stroke-width="0.8"/>
+  <rect x="276" y="34" width="34" height="2.5" rx="1.25" fill="#dbdee1"/><rect x="276" y="38.5" width="26" height="2" rx="1" fill="#949ba4"/>
+  <rect x="262" y="52" width="26" height="2.5" rx="1.25" fill="#949ba4"/>
+  <circle cx="267" cy="65" r="5" fill="#d97757"/><circle cx="270.5" cy="68.5" r="2" fill="#23a55a" stroke="#2b2d31" stroke-width="0.8"/>
+  <rect x="276" y="62" width="30" height="2.5" rx="1.25" fill="#dbdee1"/><rect x="276" y="66.5" width="22" height="2" rx="1" fill="#949ba4"/>
+  <circle cx="267" cy="80" r="5" fill="#d97757"/><circle cx="270.5" cy="83.5" r="2" fill="#23a55a" stroke="#2b2d31" stroke-width="0.8"/>
+  <rect x="276" y="77" width="26" height="2.5" rx="1.25" fill="#dbdee1"/><rect x="276" y="81.5" width="30" height="2" rx="1" fill="#949ba4"/>
+  <g opacity="0.5">
+    <rect x="262" y="96" width="20" height="2.5" rx="1.25" fill="#949ba4"/>
+    <circle cx="267" cy="109" r="5" fill="#d97757"/><circle cx="270.5" cy="112.5" r="2" fill="#80848e" stroke="#2b2d31" stroke-width="0.8"/>
+    <rect x="276" y="106" width="28" height="2.5" rx="1.25" fill="#949ba4"/>
+  </g>
+</svg>

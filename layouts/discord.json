@@ -1,0 +1,204 @@
+{
+  "id": "root",
+  "type": "row",
+  "theme": "graphite",
+  "ui_font": "Pretendard",
+  "background": "canvas",
+  "terminal_padding": [
+    10,
+    16
+  ],
+  "titlebar": "none",
+  "traffic_lights": [
+    16,
+    14
+  ],
+  "resizable": false,
+  "preview": "layouts/discord.svg",
+  "children": [
+    {
+      "id": "rail",
+      "type": "block",
+      "size": {
+        "px": 72
+      },
+      "content": {
+        "mod": "discord",
+        "props": {
+          "view": "rail"
+        }
+      },
+      "window_drag": true
+    },
+    {
+      "id": "sidebar",
+      "type": "column",
+      "size": {
+        "px": 240
+      },
+      "resizable": false,
+      "children": [
+        {
+          "id": "channels",
+          "type": "block",
+          "content": {
+            "mod": "discord",
+            "props": {
+              "view": "channels"
+            }
+          }
+        },
+        {
+          "id": "user",
+          "type": "block",
+          "size": {
+            "px": 52
+          },
+          "content": {
+            "mod": "discord",
+            "props": {
+              "view": "user"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "work",
+      "type": "column",
+      "resizable": false,
+      "children": [
+        {
+          "id": "header",
+          "type": "block",
+          "size": {
+            "px": 48
+          },
+          "content": {
+            "mod": "discord",
+            "props": {
+              "view": "header"
+            }
+          },
+          "window_drag": true
+        },
+        {
+          "id": "work-body",
+          "type": "row",
+          "children": [
+            {
+              "id": "main",
+              "type": "block",
+              "background": "background",
+              "content": {
+                "tab": "active",
+                "pane": {
+                  "gap": 2,
+                  "radius": 0,
+                  "background": "background",
+                  "border": {
+                    "width": 1,
+                    "color": "background"
+                  },
+                  "focus": {
+                    "width": 1,
+                    "color": "accent"
+                  }
+                }
+              }
+            },
+            {
+              "id": "members",
+              "type": "block",
+              "size": {
+                "px": 240
+              },
+              "min": 200,
+              "max": 360,
+              "content": {
+                "mod": "discord",
+                "props": {
+                  "view": "members"
+                }
+              }
+            },
+            {
+              "id": "panel",
+              "type": "column",
+              "children": [
+                {
+                  "id": "panel-body",
+                  "type": "stack",
+                  "children": [
+                    {
+                      "id": "files",
+                      "type": "block",
+                      "content": {
+                        "mod": "files"
+                      }
+                    },
+                    {
+                      "id": "changes",
+                      "type": "block",
+                      "content": {
+                        "mod": "changes"
+                      }
+                    }
+                  ],
+                  "active": "files"
+                }
+              ],
+              "size": {
+                "px": 368
+              },
+              "min": 280,
+              "max": 900,
+              "hidden": true
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "colors": {
+    "background": "#313338",
+    "foreground": "#dbdee1",
+    "selection": "#3c4a8c",
+    "ansi0": "#1e1f22",
+    "ansi1": "#f23f43",
+    "ansi2": "#23a55a",
+    "ansi3": "#f0b232",
+    "ansi4": "#5865f2",
+    "ansi5": "#eb459e",
+    "ansi6": "#00a8fc",
+    "ansi7": "#b5bac1",
+    "ansi8": "#4e5058",
+    "ansi9": "#fa777c",
+    "ansi10": "#57f287",
+    "ansi11": "#fee75c",
+    "ansi12": "#7984f5",
+    "ansi13": "#f47fb7",
+    "ansi14": "#5ecbff",
+    "ansi15": "#f2f3f5",
+    "canvas": "#1e1f22",
+    "chrome": "#2b2d31",
+    "surface": "#2b2d31",
+    "popover": "#111214",
+    "raised": "#232428",
+    "hover": "#35373c",
+    "selected": "#404249",
+    "border": "#3f4147",
+    "input": "#4e5058",
+    "muted": "#b5bac1",
+    "dim": "#949ba4",
+    "accent": "#5865f2",
+    "accent_foreground": "#ffffff",
+    "solid": "#5865f2",
+    "solid_foreground": "#ffffff",
+    "working": "#23a55a",
+    "blocked": "#f23f43",
+    "done": "#f0b232",
+    "idle": "#80848e",
+    "unknown": "#80848e"
+  }
+}
